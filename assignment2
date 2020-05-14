@@ -114,17 +114,17 @@ h2 {
     <div class="row">
         <div class="col-lg-4 col-md-6">
         <h2 class="chicken">Chicken</h2>
-            <p>chekeeeeeeeeeen.....ound round salami chuck sausage eu lorem pork belly reprehenderit occaecat laborum. Id reprehenderit cupidatat aute kielbasa nisi. </p>
+            <p>chicken; Delicious chicken recipes including roasts, casseroles, curries, healthy one-pots and pies.</p>
         </div>
 
         <div class="col-lg-4 col-md-6">
         <h2 class="beef">Beef</h2>
-            <p>beef </p>
+      <p>beef; Garlic Butter Steak Bites,Instant Pot Beef Stew,Sirloin Steak Sandwiches, Perfect Stovetop Steak,Classic Beef Pot Roast,Weeknight Cabbage Rolls,Ground Beef Taco Casserole,Classic Slow Cooker Beef Brisket. </p>
         </div>
 
         <div class="col-lg-4 col-md-6">
         <h2 class="sushi">Sushi</h2>
-            <p>sushiiiiii </p>
+            <p>sushiiiiii; A topping, usually fish, served on top of sushi rice,Fish or shellfish served alone (no rice),Similar to the above, but rice is on the outside and seaweed wraps around the filling </p>
         </div>
     </div>
 
