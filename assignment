@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-    
+<!DOCTYPE html>   
 <html>
 <head>
 <meta charset="utf-8">
@@ -25,7 +24,7 @@ h2 {
     border: 3px solid black;
     font-size: 1.25em;
     text-align: center;
-    float: right;
+    float:right;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
@@ -56,26 +55,23 @@ p {
     .chicken {
         background-color:pink;
     }
-    
     .beef {
         color: white;
         background-color: red;
     }
-    
     .sushi {
         background-color: yellow;
     }
-    
     /********** Large devices only **********/
 @media (min-width: 992px) {
 
   .col-lg-4 {
     float: left;
-    }
+  }
 
   .col-lg-4 {
     width: 33.33%;
-    }
+  }
 
 }
 
@@ -83,17 +79,16 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
 
   .col-md-6, .col-md-12 {
-    float: both;
-    }
-
+    float: left;
+}
 
   .col-md-6 {
     width: 50%;
-    }
+  }
 
   .col-md-12 {
     width: 100%;
-    }
+  }
 }
 
 /********** Small devices only **********/
@@ -101,14 +96,14 @@ p {
 
 .col-sm-12 {
     float: left;
-    }
+}
 .col-sm-12{
     width: 100%;
-    }
+}
 
 h2 {
     bottom: 15px;
-    }
+}
 }
 </style>
     
