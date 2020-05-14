@@ -25,7 +25,7 @@ h2 {
     border: 3px solid black;
     font-size: 1.25em;
     text-align: center;
-    float:right;
+    float:both;
     padding-left: 30px;
     padding-right: 30px;
     position: relative;
@@ -82,9 +82,14 @@ p {
 /********** Medium devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-  .col-md-6,.col-md-12 {
+  .col-md-6 {
     float: left;
     }
+    
+  .col-md-6 {
+    float: left;
+    }
+
 
   .col-md-6 {
     width: 50%;
