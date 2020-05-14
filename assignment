@@ -125,7 +125,7 @@ h2 {
             <p>beef.....with curry. We also serve it with different sauce items.</p>
         </div>
 
-        <div class="col-lg-4 col-md-6">
+        <div class="col-lg-4 col-md-12">
         <h2 class="sushi">Sushi</h2>
             <p>sushi and much delight to be served....it can be made with some of your preferences.</p>
         </div>
