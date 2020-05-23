@@ -1,131 +1,44 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Module 2</title>
-<link rel="stylesheet" href="css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 2 Solution</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-
-<style>
-    * {
-        box-sizing: border-box;
-        font-family: Comic Sans MS;
-        font-weight: lighter;
-    }
-
-
-h1 {
-    text-align: center;
-    font-size: 1.75em;
-}
-
-h2 {
-    border: 3px solid black;
-    font-size: 1.25em;
-    text-align: center;
-    float:right;
-    padding-left: 30px;
-    padding-right: 30px;
-    position: relative;
-    right: 10px;
-    bottom: 5px;
-    width: 150px;
-    margin-bottom: auto;
-
-}
-
-p {
-    margin: 10px;
-    border: 3px solid black;
-    background-color:gray;
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right:10px;
-
-}
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-
-    .chicken {
-        background-color:pink;
-    }
-    .beef {
-        color: white;
-        background-color: red;
-    }
-    .sushi {
-        background-color: yellow;
-    }
-    /********** Large devices only **********/
-@media (min-width: 992px) {
-
-  .col-lg-4 {
-    float: left;
-  }
-
-  .col-lg-4 {
-    width: 33.33%;
-  }
-
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-
-  .col-md-6, .col-md-12 {
-    float: left;
-}
-
-  .col-md-6 {
-    width: 50%;
-  }
-
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-/********** Small devices only **********/
-@media (max-width: 767px) {
-
-.col-sm-12 {
-    float: left;
-}
-.col-sm-12{
-    width: 100%;
-}
-
-h2 {
-    bottom: 15px;
-}
-}
-</style>
-    
-</head>   
 <body>
     <h1>Our Menu</h1>
     <div class="row">
-        <div class="col-lg-4 col-md-6">
-        <h2 class="chicken">Chicken</h2>
-            <p>chicken; Delicious chicken recipes including roasts, casseroles, curries, healthy one-pots and pies.</p>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="box1">
+                <h2>Chicken</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
         </div>
-
-        <div class="col-lg-4 col-md-6">
-        <h2 class="beef">Beef</h2>
-      <p>beef; Garlic Butter Steak Bites,Instant Pot Beef Stew,Sirloin Steak Sandwiches, Perfect Stovetop Steak,Classic Beef Pot Roast,Weeknight Cabbage Rolls,Ground Beef Taco Casserole,Classic Slow Cooker Beef Brisket. </p>
+        
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <section class="box2">
+                <h2>Beef</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
         </div>
-
-        <div class="col-lg-4 col-md-6">
-        <h2 class="sushi">Sushi</h2>
-            <p>sushiiiiii; A topping, usually fish, served on top of sushi rice,Fish or shellfish served alone (no rice),Similar to the above, but rice is on the outside and seaweed wraps around the filling </p>
+        
+        <div class="col-lg-4 col-md-12 col-sm-12">
+            <section class="box3">
+                <h2>Shusi</h2>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </section>
         </div>
     </div>
-
 </body>
+
 </html>
